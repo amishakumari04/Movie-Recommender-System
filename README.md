@@ -30,7 +30,10 @@ Install required Python packages:
 
 ```bash
 pip install streamlit pandas numpy scikit-learn
-🧠 How It Works
+
+```
+
+##🧠 How It Works
 The user enters their userId
 
 The app identifies their top-rated movie
@@ -41,21 +44,22 @@ Optionally filters by genre
 
 Displays recommendations in the browser
 
-▶️ How to Run
-
+##▶️ How to Run
+```bash
 streamlit run movie_recommender_app.py
+```
 Then open the app in your browser at:
 http://localhost:8501
 
 
-✨ Example
-Input:
+##✨ Example
+###Input:
 
 User ID: 128
 
 Top-rated movie: Star Wars (1977)
 
-Recommendations:
+###Recommendations:
 
 The Empire Strikes Back (1980)
 
@@ -65,7 +69,7 @@ Raiders of the Lost Ark (1981)
 
 ...
 
-🛠️ To-Do
+##🛠️ To-Do
  Use multiple top-rated movies for recommendations
 
  Show movie posters and release years
@@ -74,10 +78,10 @@ Raiders of the Lost Ark (1981)
 
  Deploy online via Streamlit Cloud or Hugging Face
 
-📄 License
+##📄 License
 This project is for educational and research use.
 
-❤️ Built With
+##❤️ Built With
 Streamlit
 
 scikit-learn
